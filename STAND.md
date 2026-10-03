@@ -9,7 +9,7 @@ Maßgeblich sind die GitHub-Issues; diese Datei ist die Kurzfassung.
 
 ## Portfolio
 
-- **Spiel 2 „Small Realms“** (rundenbasierte Pixel-Strategie): Repo noch nicht angelegt; Konzept + Genre-Recherche fertig (Startpaket Stufe A). Stories in `test` über beide Repos: 0 von max. 2.
+- **Spiel 2 „Small Realms“** (rundenbasierte Pixel-Strategie): Repo noch nicht angelegt; Startpaket Stufe A (CLAUDE.md, STAND.md, Konzept, Genre-Recherche, 4 Entscheidungen, Skill, Vorlagen, Projektanweisung) liegt im Branch `small-realms-starter`. Stories in `test` über beide Repos: 0 von max. 2.
 
 ## In Arbeit
 
@@ -84,7 +84,7 @@ Maßgeblich sind die GitHub-Issues; diese Datei ist die Kurzfassung.
 
 0. **Neu angelegt – bitte bestätigen oder umsortieren (2026-10-03):** Initiative #44 „Neue Spielmodi und Folgespiele“ mit Epic #45 „Roguelike Tower Defense“ (#46 Konzept, #47 Spike) und Epic #48 „Pixel-Strategie, Age-of-Strategy-Richtung“ (#49 Konzept). Priorität: Konzeptskizzen nach Version 0.1, zweites Spiel erst nach Rune Rush 1.0 (siehe 0004)?
 0b. **Entscheidung 0005 „Portfolio-Betrieb“ bestätigen** (ändert 0004, Abschnitt 6): beide Spiele parallel entwickeln, versetzt launchen; getrennte öffentliche Repos; max. 2 Stories in `test` über beide Repos; RR hat Vorrang bis 1.0, Spiel 2 ≈ 1 h/Woche. Fragen 1–6 in 0005, Abschnitt (9). Vom Menschen bereits entschieden (03.10.): Rune Rush mit Rewarded Ads + Werbefrei-Kauf; Age-of-Strategy-Richtung wird ein eigenes Spiel in eigenem Repo.
-0c. **Repo 2 anlegen** (Mensch, öffentlich, Vorschlag `maestroDev3/strategy`, leer ohne README) – Stufe A liegt bereit und wird vom Agenten gepusht. Danach werden #48/#49 hier mit Verweis geschlossen.
+0c. **Repo 2 anlegen** (Mensch, öffentlich, Vorschlag `maestroDev3/strategy`, leer ohne README) – Stufe A liegt fertig im Branch `small-realms-starter` dieses Repos (Orphan-Branch; wird als `main` von Repo 2 gepusht). Danach werden #48/#49 hier mit Verweis geschlossen.
 1. **Spielkonzept bestätigen** – Match-3-Roguelite „Rune Rush“ (`docs/entscheidungen/0003-spielkonzept.md`). Alternativen B (One-Thumb-Survivor) und C (Cozy Idle-Merge) sind dort beschrieben. Alle Initiativen #1–#5 und Epics #6–#13 sind neu angelegt – bitte bestätigen oder umsortieren.
 2. **Engine bestätigen** – Flutter + Flame mit reinem Dart-`game_core` (`docs/entscheidungen/0002-engine-flutter-flame.md`).
 3. **Monetarisierung** – Free-to-Play fair (empfohlen) oder Premium 4,99 € + Demo? Preis für „Werbefrei“ (Vorschlag 3,99 €).
