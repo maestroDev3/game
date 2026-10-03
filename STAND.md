@@ -7,6 +7,10 @@ Maßgeblich sind die GitHub-Issues; diese Datei ist die Kurzfassung.
 
 **Projekt:** „Rune Rush“ (Arbeitstitel) – Match-3-Roguelite für Android und iOS, Flutter + Flame. Konzept: `docs/spielkonzept.md`. Entscheidungen: `docs/entscheidungen/`.
 
+## Portfolio
+
+- **Spiel 2 „Small Realms“** (rundenbasierte Pixel-Strategie): Repo noch nicht angelegt; Konzept + Genre-Recherche fertig (Startpaket Stufe A). Stories in `test` über beide Repos: 0 von max. 2.
+
 ## In Arbeit
 
 - – (noch keine Story in Umsetzung)
@@ -71,6 +75,7 @@ Maßgeblich sind die GitHub-Issues; diese Datei ist die Kurzfassung.
 
 ## Zuletzt erledigt
 
+- Beschluss „Zwei Spiele – parallel entwickeln, versetzt launchen“ (Debatte zweier Agenten) als Entscheidung 0005 festgehalten; Startpaket Repo 2 (Stufe A) inkl. Konzept „Small Realms“ und Genre-Recherche vorbereitet (2026-10-03)
 - Idee „Pixel-Strategie“ (Vorbild Age of Strategy) aufgenommen: Epic #48, Story #49; Produktstrategie als Entscheidung 0004 festgehalten (2026-10-03)
 - Idee „Roguelike Tower Defense“ aufgenommen: Initiative #44, Epic #45, Stories #46/#47; Ideenspeicher in `docs/spielkonzept.md`, Abschnitt 10 (2026-10-03)
 - Planungsstruktur, Recherche (Markt, Engine, Design), Spielkonzept, CLAUDE.md, Skill-Datei, Issue-Vorlagen, Labels, 5 Initiativen, 8 Epics, 27 Stories, 3 Tasks angelegt (2026-10-02, ohne PR – Initial-Commit)
@@ -78,7 +83,8 @@ Maßgeblich sind die GitHub-Issues; diese Datei ist die Kurzfassung.
 ## Offene Entscheidungen (nur der Mensch)
 
 0. **Neu angelegt – bitte bestätigen oder umsortieren (2026-10-03):** Initiative #44 „Neue Spielmodi und Folgespiele“ mit Epic #45 „Roguelike Tower Defense“ (#46 Konzept, #47 Spike) und Epic #48 „Pixel-Strategie, Age-of-Strategy-Richtung“ (#49 Konzept). Priorität: Konzeptskizzen nach Version 0.1, zweites Spiel erst nach Rune Rush 1.0 (siehe 0004)?
-0b. **Produktstrategie 0004 bestätigen:** Portfolio kleiner Spiele auf gemeinsamer Basis. Offen: Ist „10 000“ Umsatz in € (Zeitraum?) oder Spieler? Rune Rush mit Rewarded Ads oder nach Age-of-Strategy-Vorbild ganz ohne Werbung (nur Werbefrei-/Supporter-Kauf + Kosmetik)?
+0b. **Entscheidung 0005 „Portfolio-Betrieb“ bestätigen** (ändert 0004, Abschnitt 6): beide Spiele parallel entwickeln, versetzt launchen; getrennte öffentliche Repos; max. 2 Stories in `test` über beide Repos; RR hat Vorrang bis 1.0, Spiel 2 ≈ 1 h/Woche. Fragen 1–6 in 0005, Abschnitt (9). Vom Menschen bereits entschieden (03.10.): Rune Rush mit Rewarded Ads + Werbefrei-Kauf; Age-of-Strategy-Richtung wird ein eigenes Spiel in eigenem Repo.
+0c. **Repo 2 anlegen** (Mensch, öffentlich, Vorschlag `maestroDev3/strategy`, leer ohne README) – Stufe A liegt bereit und wird vom Agenten gepusht. Danach werden #48/#49 hier mit Verweis geschlossen.
 1. **Spielkonzept bestätigen** – Match-3-Roguelite „Rune Rush“ (`docs/entscheidungen/0003-spielkonzept.md`). Alternativen B (One-Thumb-Survivor) und C (Cozy Idle-Merge) sind dort beschrieben. Alle Initiativen #1–#5 und Epics #6–#13 sind neu angelegt – bitte bestätigen oder umsortieren.
 2. **Engine bestätigen** – Flutter + Flame mit reinem Dart-`game_core` (`docs/entscheidungen/0002-engine-flutter-flame.md`).
 3. **Monetarisierung** – Free-to-Play fair (empfohlen) oder Premium 4,99 € + Demo? Preis für „Werbefrei“ (Vorschlag 3,99 €).

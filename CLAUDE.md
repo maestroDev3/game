@@ -8,7 +8,7 @@ Mobile-Spiel für Android und iOS: **Match-3-Roguelite** (Candy-Crush-Vertrauthe
 |---|---|
 | `STAND.md` | Kurzfassung des Projektstands – **zuerst lesen** |
 | `docs/spielkonzept.md` | Was wir bauen: Core Loop, Scoring, Runen, Meta, Monetarisierung, Versionen |
-| `docs/entscheidungen/` | Entscheidungen mit Begründung (0001 Planungsstruktur, 0002 Engine, 0003 Konzept, 0004 Produktstrategie) |
+| `docs/entscheidungen/` | Entscheidungen mit Begründung (0001 Planungsstruktur, 0002 Engine, 0003 Konzept, 0004 Produktstrategie, 0005 Portfolio-Betrieb) |
 | `docs/recherche/` | Marktanalyse, Engine-Vergleich, Design-Dossier (Quellen) |
 | `.claude/skills/flutter-dart/SKILL.md` | Technische Regeln, Projektstruktur, Befehle, **Definition of Done (Abschnitt 7)** |
 | `.github/ISSUE_TEMPLATE/` | Vorlagen für Initiative, Epic, Story, Task |
@@ -17,6 +17,8 @@ Mobile-Spiel für Android und iOS: **Match-3-Roguelite** (Candy-Crush-Vertrauthe
 ## Produktstrategie (Kurzfassung von `docs/entscheidungen/0004`)
 
 Portfolio kleiner, sauberer Spiele statt Einzelwette; erstes Ziel in der Größenordnung 10 000, nicht Millionen. Rune Rush ist das erste Spiel; Ideen für weitere Modi und Spiele leben in Initiative #44 und `docs/spielkonzept.md`, Abschnitt 10. Beim Bauen gilt: Querschnitt (RNG, Save, Services, Lokalisierung, Shop-/Album-UI, CI) so schreiben, dass das zweite Spiel ihn übernehmen kann – extrahiert wird aber erst, wenn das zweite Spiel beginnt. Pro Spiel genau ein Content-Hebel (kombinatorisch, prozedural oder Community), nie handgebauter Level-Treadmill.
+
+**Betrieb über zwei Repos** (`docs/entscheidungen/0005`): Spiel 2 „Small Realms“ lebt in einem eigenen Repo. Eine Session schreibt in genau ein Repo und liest das andere nur. Je Repo eine Story `in-progress`; **über beide Repos zusammen höchstens 2 Stories in `test`** – vor jedem Wechsel nach `test` im anderen Repo prüfen (`gh issue list -R maestroDev3/<repo> -l test`). Ist das Limit erreicht oder läuft eine Rune-Rush-Launch-Phase (Closed Test, Soft Launch, 1.0), nur CI-prüfbare Arbeit. Rune Rush hat Vorrang auf die Zeit des Menschen bis 1.0. `STAND.md` führt einen Abschnitt „Portfolio“.
 
 ## Sprache und Konventionen
 
