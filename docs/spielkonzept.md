@@ -158,3 +158,13 @@ Flache, kräftige Vektorformen auf dunklem Grund; Steine = geometrische „Runen
 | Zu wenig Juice (Solo, kein Art-Team) | Juice-Paket als eigenes Epic mit Checkliste; Sound/Partikel-Bibliotheken; Vektor-Stil statt Illustration |
 | Niemand findet das Spiel | Community vor Launch (Balatro-/Roguelite-Subreddits, Creator), Daily-Seed als Share-Anlass, Store-Listing-Tests |
 | Store-Ablehnung/Compliance | Privacy Manifest, UMP-Consent, Target-SDK 36, 16-KB-Pages, keine Kinder-Zielgruppe – Checkliste im Release-Epic |
+
+## 10. Ideenspeicher (Initiative #44 „Neue Spielmodi und Folgespiele“)
+
+Ideen durchlaufen immer denselben Weg: Konzeptskizze → Spike → Entscheidung (Modus in Rune Rush, eigenes Spiel, verworfen). Sie konkurrieren nicht mit Version 0.1.
+
+| Idee | Herkunft | Stand | Kurzbild |
+|---|---|---|---|
+| **Roguelike Tower Defense** | Wunsch des Menschen (03.10.2026) | Epic #45, Stories #46 (Konzept), #47 (Spike) | Prozedurale Pfade, Türme als Daten mit Synergien, 1-aus-3-Wahl nach jeder Welle, Runs. Zwei Varianten zu prüfen: Modus „Runen-Verteidigung“ in Rune Rush (Türme = Runen, Wellen = Bretter, gleicher Shop) oder eigenes Spiel. Vorbilder: PvZ, Isle of Arrows, Rogue Tower, Kingdom Rush, Emberward. Flame-Grenze beachten (Gegnerzahl, siehe 0002). |
+| **„Lantern Swarm“** – One-Thumb-Survivor, 5-Minuten-Runs | Design-Dossier, Skizze B | Idee | Höchstes F2P-Potenzial, aber Massen-Sprites (Benchmark nötig) und viel Juice/Art. |
+| **„Moosgarten“** – Cozy Idle-Merge mit genetischen Pflanzen | Design-Dossier, Skizze C | Idee | Breiteste Zielgruppe, längste Retention; Deko-Content und Idle-Mathe sind der Aufwand. |
