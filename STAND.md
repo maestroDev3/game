@@ -61,6 +61,7 @@ Maßgeblich sind die GitHub-Issues; diese Datei ist die Kurzfassung.
 | Epic | Stand | Stories (Reihenfolge) |
 |---|---|---|
 | #45 Roguelike Tower Defense – Konzept und Prototyp-Entscheidung | 0 von 2 zu | #46 → #47 |
+| #48 Rundenbasierte Pixel-Strategie (Age-of-Strategy-Richtung) – Konzept und Entscheidung | 0 von 1 zu | #49 |
 
 **Empfohlene Reihenfolge über Epics hinweg:** #6 → #7 → #12 → #8 → #9 → #13 → #11 → #10 (Version 0.1 = #6 + #7; Version 0.2 = + #12, #8, #9, #13; Version 0.3 = + #11, #10). #45 (Tower Defense) nach Version 0.1, sobald der Match-3-Loop getestet ist – oder früher, wenn der Mensch es vorzieht.
 
@@ -70,12 +71,14 @@ Maßgeblich sind die GitHub-Issues; diese Datei ist die Kurzfassung.
 
 ## Zuletzt erledigt
 
+- Idee „Pixel-Strategie“ (Vorbild Age of Strategy) aufgenommen: Epic #48, Story #49; Produktstrategie als Entscheidung 0004 festgehalten (2026-10-03)
 - Idee „Roguelike Tower Defense“ aufgenommen: Initiative #44, Epic #45, Stories #46/#47; Ideenspeicher in `docs/spielkonzept.md`, Abschnitt 10 (2026-10-03)
 - Planungsstruktur, Recherche (Markt, Engine, Design), Spielkonzept, CLAUDE.md, Skill-Datei, Issue-Vorlagen, Labels, 5 Initiativen, 8 Epics, 27 Stories, 3 Tasks angelegt (2026-10-02, ohne PR – Initial-Commit)
 
 ## Offene Entscheidungen (nur der Mensch)
 
-0. **Neu angelegt – bitte bestätigen oder umsortieren (2026-10-03):** Initiative #44 „Neue Spielmodi und Folgespiele“ mit Epic #45 „Roguelike Tower Defense – Konzept und Prototyp-Entscheidung“ (#46 Konzeptskizze, #47 Spike). Priorität: nach Version 0.1?
+0. **Neu angelegt – bitte bestätigen oder umsortieren (2026-10-03):** Initiative #44 „Neue Spielmodi und Folgespiele“ mit Epic #45 „Roguelike Tower Defense“ (#46 Konzept, #47 Spike) und Epic #48 „Pixel-Strategie, Age-of-Strategy-Richtung“ (#49 Konzept). Priorität: Konzeptskizzen nach Version 0.1, zweites Spiel erst nach Rune Rush 1.0 (siehe 0004)?
+0b. **Produktstrategie 0004 bestätigen:** Portfolio kleiner Spiele auf gemeinsamer Basis. Offen: Ist „10 000“ Umsatz in € (Zeitraum?) oder Spieler? Rune Rush mit Rewarded Ads oder nach Age-of-Strategy-Vorbild ganz ohne Werbung (nur Werbefrei-/Supporter-Kauf + Kosmetik)?
 1. **Spielkonzept bestätigen** – Match-3-Roguelite „Rune Rush“ (`docs/entscheidungen/0003-spielkonzept.md`). Alternativen B (One-Thumb-Survivor) und C (Cozy Idle-Merge) sind dort beschrieben. Alle Initiativen #1–#5 und Epics #6–#13 sind neu angelegt – bitte bestätigen oder umsortieren.
 2. **Engine bestätigen** – Flutter + Flame mit reinem Dart-`game_core` (`docs/entscheidungen/0002-engine-flutter-flame.md`).
 3. **Monetarisierung** – Free-to-Play fair (empfohlen) oder Premium 4,99 € + Demo? Preis für „Werbefrei“ (Vorschlag 3,99 €).

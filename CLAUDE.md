@@ -8,11 +8,15 @@ Mobile-Spiel für Android und iOS: **Match-3-Roguelite** (Candy-Crush-Vertrauthe
 |---|---|
 | `STAND.md` | Kurzfassung des Projektstands – **zuerst lesen** |
 | `docs/spielkonzept.md` | Was wir bauen: Core Loop, Scoring, Runen, Meta, Monetarisierung, Versionen |
-| `docs/entscheidungen/` | Entscheidungen mit Begründung (0001 Planungsstruktur, 0002 Engine, 0003 Konzept) |
+| `docs/entscheidungen/` | Entscheidungen mit Begründung (0001 Planungsstruktur, 0002 Engine, 0003 Konzept, 0004 Produktstrategie) |
 | `docs/recherche/` | Marktanalyse, Engine-Vergleich, Design-Dossier (Quellen) |
 | `.claude/skills/flutter-dart/SKILL.md` | Technische Regeln, Projektstruktur, Befehle, **Definition of Done (Abschnitt 7)** |
 | `.github/ISSUE_TEMPLATE/` | Vorlagen für Initiative, Epic, Story, Task |
 | `docs/PROJEKTANWEISUNG.md` | Text für die Anweisungen des Claude-Projekts „Game“ |
+
+## Produktstrategie (Kurzfassung von `docs/entscheidungen/0004`)
+
+Portfolio kleiner, sauberer Spiele statt Einzelwette; erstes Ziel in der Größenordnung 10 000, nicht Millionen. Rune Rush ist das erste Spiel; Ideen für weitere Modi und Spiele leben in Initiative #44 und `docs/spielkonzept.md`, Abschnitt 10. Beim Bauen gilt: Querschnitt (RNG, Save, Services, Lokalisierung, Shop-/Album-UI, CI) so schreiben, dass das zweite Spiel ihn übernehmen kann – extrahiert wird aber erst, wenn das zweite Spiel beginnt. Pro Spiel genau ein Content-Hebel (kombinatorisch, prozedural oder Community), nie handgebauter Level-Treadmill.
 
 ## Sprache und Konventionen
 
